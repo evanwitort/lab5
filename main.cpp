@@ -61,5 +61,9 @@ void run_tests()
 }
 
 int main() {
+    Vector2d raptor(3,2);
+    int myVariable = raptor.get_x();
+    cout <<myVariable << endl;
+
     run_tests();
 }
